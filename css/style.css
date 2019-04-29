@@ -1,0 +1,31 @@
+#content{
+    display:flex;
+    justify-content:center;
+}
+#header{
+    display:block;
+    background-color: #fed65d;
+}
+#pageTop{
+    background-color: #2178a1;
+    color: white;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+#format{
+    margin-left: 40px;
+}
+.button{
+    background-color: #fed65d;
+    border: solid 2px #fed65d;
+    width: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.active, .button:hover {
+  background-color: #d1b854;
+}
