@@ -26,6 +26,41 @@
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+.content{
+display:flex;
+}
+.contentText{
+    width: 27.5%;
+}
+.imgButton{
+    height:25px;
+    display: flex;
+    justify-content:center;
+}
+.contentImg {
+    position: relative;
+    width: 46%;
+    display: flex;
+    justify-content:center;
+}
+.contentImg slides {
+    width: 100%;
+    height: auto;
+}
+.contentImg .imgButtonLeft {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.contentImg .imgButtonRight {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 .active, .button:hover {
-  background-color: #d1b854;
+    background-color: #d1b854;
 }
