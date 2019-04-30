@@ -5,7 +5,8 @@ showDivs(slideIndex);
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-
+//#fed65d
+//#2178a1
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slides");

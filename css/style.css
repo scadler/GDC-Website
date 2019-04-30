@@ -7,7 +7,7 @@
     background-color: #fed65d;
 }
 #pageTop{
-    background-color: #2178a1;
+    background-color: #3d85c6;
     color: white;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -31,7 +31,7 @@ display:flex;
 justify-content: center;
 }
 .contentText{
-    width: 25.5%;
+    width: 24.5%;
     font-family: 'Roboto', sans-serif;
 }
 .imgButton{
