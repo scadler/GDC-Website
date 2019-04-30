@@ -28,9 +28,10 @@
 }
 .content{
 display:flex;
+justify-content: center;
 }
 .contentText{
-    width: 27.5%;
+    width: 25.5%;
     font-family: 'Roboto', sans-serif;
 }
 .imgButton{
@@ -65,4 +66,14 @@ display:flex;
 }
 .active, .button:hover {
     background-color: #d1b854;
+}
+.contentMbr{
+    display: flex;
+    justify-content: center;
+}
+.divImg{
+ width:35%;   
+}
+.mbrList{
+    width: 45%;
 }
