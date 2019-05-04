@@ -1,12 +1,12 @@
 /* global $ */
+// I do not know how the js works either
+// I recommend not to mess with it
 var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-//#fed65d
-//#2178a1
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slides");
